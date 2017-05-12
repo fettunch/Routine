@@ -222,7 +222,7 @@ public class Routine {
 		// Routine.execute(-2, true);
 		// Routine.execute(-1, true);
 		// Routine.execute(0, true);
-		// Routine.execute(0, true, "NYSE");
+		// Routine.execute(-1, true, "PA");
 		Routine.execute(Integer.parseInt(args[0]), Boolean.parseBoolean(args[1]), args[2]);
 		// Routine.execute(-1, true, "NYSE");
 	}
